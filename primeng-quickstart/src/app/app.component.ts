@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { AppTopbar } from './components/app.topbar';
 import { StatsWidget } from "./components/dashboard/statswidget";
 import { SalesTrendWidget } from "./components/dashboard/salestrendwidget";
