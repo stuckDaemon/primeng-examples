@@ -1,6 +1,6 @@
-import { Component, inject, PLATFORM_ID } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { ChartModule } from 'primeng/chart';
-import { CommonModule, isPlatformBrowser } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { LayoutService } from '../../service/layout.service';
 import { debounceTime, Subscription } from 'rxjs';
 
