@@ -29,6 +29,7 @@ import { CommonModule } from '@angular/common';
   },
 })
 export class RecentActivityWidget {
+  
   activities = [
     {
       icon: 'pi-shopping-cart',

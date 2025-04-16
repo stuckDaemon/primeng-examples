@@ -143,8 +143,11 @@ export class ProductOverviewWidget {
       status: 'In Stock',
     },
   ];
+
   searchQuery = '';
+
   loading = false;
+  
   filteredProducts: any = [];
 
   ngOnInit() {

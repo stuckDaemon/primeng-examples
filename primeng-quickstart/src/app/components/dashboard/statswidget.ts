@@ -31,6 +31,7 @@ import { CommonModule } from '@angular/common';
   },
 })
 export class StatsWidget {
+  
   stats = [
     {
       title: 'Total Orders',
